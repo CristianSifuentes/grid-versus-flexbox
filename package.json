@@ -1,0 +1,13 @@
+{
+  "name": "grid-versus-flexbox",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Tutorial code: CSS Grid vs. Flexbox – When to use one or the other",
+  "scripts": {
+    "start": "live-server --port=5500 --open=index.html --watch=index.html,styles.css,img",
+    "dev": "npm start"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+}
