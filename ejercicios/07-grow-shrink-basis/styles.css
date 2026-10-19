@@ -1,0 +1,35 @@
+/* =========================================================
+   07 · flex-grow, flex-shrink y flex-basis
+   Escribe tu código debajo de cada paso. Guía: README.md
+   ========================================================= */
+
+/* Punto de partida */
+.trio {
+	list-style: none;
+}
+
+.shrink-lab {
+	width: 420px;
+	max-width: 100%;
+}
+
+/* Paso 1 · .trio como flex: tamaños según el contenido */
+
+
+/* Paso 2 · Solo flex-grow: 1 */
+
+
+/* Paso 3 · flex-basis: 0 (equivale a flex: 1) */
+
+
+/* Paso 4 · La primera al doble */
+
+
+/* Paso 5 · flex-shrink */
+
+
+/* Paso 6 · La trampa de min-width */
+
+
+/* Reto · .app */
+

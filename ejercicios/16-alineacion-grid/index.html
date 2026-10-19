@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>16 · Box Alignment en grid</title>
+	<link rel="stylesheet" href="../assets/base.css">
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<header class="exercise-header">
+		<a href="../index.html">← Ejercicios</a>
+		<h1>16 · Box Alignment en grid</h1>
+		<p class="goal">Objetivo: alinear ítems dentro de sus celdas (<code>-items</code>, <code>-self</code>) y mover las pistas completas dentro del contenedor (<code>-content</code>).</p>
+	</header>
+
+	<section class="demo">
+		<h2>.cells · ítems dentro de sus celdas</h2>
+		<p class="hint">3 columnas × filas de 120px. Cajas pequeñas para que se vea el espacio de cada celda.</p>
+		<div class="lab cells" data-label=".cells">
+			<div class="box">1</div>
+			<div class="box">2</div>
+			<div class="box">3</div>
+			<div class="box">4</div>
+			<div class="box">5</div>
+			<div class="box">6</div>
+		</div>
+	</section>
+
+	<section class="demo">
+		<h2>MDN · .mdn-grid</h2>
+		<p class="hint">El mismo ejemplo del ejercicio 04, ahora con grid.</p>
+		<div class="lab mdn-grid" data-label=".mdn-grid">
+			<div class="box box1">One</div>
+			<div class="box box2">Two</div>
+			<div class="box box3">Three</div>
+		</div>
+	</section>
+
+	<section class="demo">
+		<h2>.tracks · mover las pistas</h2>
+		<p class="hint">Pistas fijas de 100px en un contenedor de 260px de alto y todo el ancho.</p>
+		<div class="lab tracks" data-label=".tracks">
+			<div class="box">1</div><div class="box">2</div><div class="box">3</div>
+			<div class="box">4</div><div class="box">5</div><div class="box">6</div>
+		</div>
+	</section>
+
+	<section class="demo">
+		<h2>Reto · .products</h2>
+		<p class="hint">Pon cada etiqueta de precio en la esquina superior derecha de su tarjeta, usando la misma celda.</p>
+		<div class="lab products" data-label=".products">
+			<article class="product">
+				<img src="../../img/4.jpg" alt="US Festival">
+				<span class="tag">$60</span>
+			</article>
+			<article class="product">
+				<img src="../../img/5.jpg" alt="Altamont">
+				<span class="tag">$35</span>
+			</article>
+			<article class="product">
+				<img src="../../img/6.jpg" alt="Rock In Rio Again">
+				<span class="tag">$90</span>
+			</article>
+		</div>
+	</section>
+</body>
+</html>

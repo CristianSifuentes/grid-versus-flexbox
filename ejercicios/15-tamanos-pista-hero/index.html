@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>15 · Tamaños de pista y hero</title>
+	<link rel="stylesheet" href="../assets/base.css">
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<header class="exercise-header">
+		<a href="../index.html">← Ejercicios</a>
+		<h1>15 · Tamaños de pista: fr, minmax(0, 1fr), auto y min/max-content</h1>
+		<p class="goal">Objetivo: construir un hero de dos columnas, descubrir por qué <code>1fr 1fr</code> a veces no da columnas iguales, y conocer las palabras clave de tamaño intrínseco.</p>
+	</header>
+
+	<section class="demo">
+		<h2>.hero</h2>
+		<div class="lab hero" data-label=".hero">
+			<div class="hero-text">
+				<h2>Rock Legends 2026</h2>
+				<p>El festival vuelve con seis bandas legendarias. Más info en https://rocklegends.example.com/festival/2026/line-up-completo-y-horarios</p>
+				<a class="btn" href="#">Comprar boletos</a>
+			</div>
+			<img class="hero-img" src="../../img/banner.jpg" alt="Escenario del festival">
+		</div>
+	</section>
+
+	<section class="demo">
+		<h2>Laboratorio · .sizes</h2>
+		<p class="hint">Cuatro columnas, cada una con un tamaño intrínseco distinto.</p>
+		<div class="lab sizes" data-label=".sizes">
+			<div class="box">auto · texto de ejemplo</div>
+			<div class="box">min-content · texto de ejemplo</div>
+			<div class="box">max-content · texto de ejemplo</div>
+			<div class="box">fit-content(150px) · texto de ejemplo</div>
+		</div>
+	</section>
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>11 · Colocar por líneas</title>
+	<link rel="stylesheet" href="../assets/base.css">
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<header class="exercise-header">
+		<a href="../index.html">← Ejercicios</a>
+		<h1>11 · Colocar ítems por líneas</h1>
+		<p class="goal">Objetivo: colocar ítems con <code>grid-column</code>, <code>grid-row</code>, <code>span</code>, líneas negativas y <code>grid-area</code>, contando <strong>líneas</strong> y no celdas.</p>
+	</header>
+
+	<section class="demo">
+		<h2>.board · 4 columnas</h2>
+		<div class="lab board" data-label=".board">
+			<div class="box a">a</div>
+			<div class="box b">b</div>
+			<div class="box c">c</div>
+			<div class="box d">d</div>
+			<div class="box e">e</div>
+			<div class="box f">f</div>
+		</div>
+	</section>
+
+	<section class="demo">
+		<h2>Reto · .magazine</h2>
+		<p class="hint">Reproduce este plano (4 columnas × 3 filas de 100px):</p>
+<pre class="plan">
+┌───────────────┬───────┬───────┐
+│               │ side1 │ side2 │
+│     hero      ├───────┴───────┤
+│               │     wide      │
+├───────┬───────┼───────────────┤
+│  s1   │  s2   │      s3       │
+└───────┴───────┴───────────────┘
+</pre>
+		<div class="lab magazine" data-label=".magazine">
+			<div class="box hero">hero</div>
+			<div class="box side1">side1</div>
+			<div class="box side2">side2</div>
+			<div class="box wide">wide</div>
+			<div class="box s1">s1</div>
+			<div class="box s2">s2</div>
+			<div class="box s3">s3</div>
+		</div>
+	</section>
+</body>
+</html>

@@ -1,0 +1,43 @@
+/* =========================================================
+   10 · Primer grid
+   Escribe tu código debajo de cada paso. Guía: README.md
+   ========================================================= */
+
+/* Punto de partida: la versión flex del reto (no la toques) */
+.compare-flex {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.5rem;
+	width: 700px;
+	max-width: 100%;
+}
+
+.compare-flex > .box {
+	flex: 1 1 200px;
+}
+
+.compare-grid {
+	width: 700px;
+	max-width: 100%;
+}
+
+/* Paso 1 · display: grid y nada más */
+
+
+/* Paso 2 · Tres columnas fijas */
+
+
+/* Paso 3 · Tres columnas con fr */
+
+
+/* Paso 4 · Mezcla de unidades */
+
+
+/* Paso 5 · gap */
+
+
+/* Paso 6 · Filas explícitas e implícitas */
+
+
+/* Reto · .compare-grid */
+

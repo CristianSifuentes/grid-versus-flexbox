@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>18 · position: absolute dentro de grid</title>
+	<link rel="stylesheet" href="../assets/base.css">
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<header class="exercise-header">
+		<a href="../index.html">← Ejercicios</a>
+		<h1>18 · position: absolute dentro de un grid</h1>
+		<p class="goal">Objetivo: entender cuál es el bloque contenedor de un ítem absoluto en grid (el contenedor, su grid area o el viewport) y qué pasa con el auto-placement cuando un ítem sale del flujo.</p>
+	</header>
+
+	<!-- Sin .lab a propósito: .lab tiene position: relative y arruinaría el paso 3 -->
+	<section class="demo">
+		<h2>Demo A · .wrapper (ejemplo de MDN)</h2>
+		<div class="wrapper">
+			<div class="box box1">One</div>
+			<div class="box box2">Two</div>
+			<div class="box box3">Three · Este bloque está absolutamente posicionado. Sus offsets se calculan a partir del bloque contenedor.</div>
+			<div class="box box4">Four</div>
+		</div>
+	</section>
+
+	<section class="demo">
+		<h2>Demo B · .wrapper-b (grid area como padre)</h2>
+		<div class="wrapper-b">
+			<div class="box">One</div>
+			<div class="box">Two</div>
+			<div class="box area">
+				Three
+				<div class="abspos">Estoy dentro de Three. Mi bloque contenedor es su grid area.</div>
+			</div>
+			<div class="box">Four</div>
+		</div>
+	</section>
+
+	<section class="demo">
+		<h2>Reto · .notifications</h2>
+		<p class="hint">Pon el contador rojo sobre la esquina superior derecha de cada tarjeta, saliéndose un poco del borde.</p>
+		<div class="notifications">
+			<div class="box notif">Mensajes <span class="count">3</span></div>
+			<div class="box notif">Alertas <span class="count">12</span></div>
+			<div class="box notif">Tareas <span class="count">1</span></div>
+		</div>
+	</section>
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>08 · Navbar con flex anidado</title>
+	<link rel="stylesheet" href="../assets/base.css">
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<header class="exercise-header">
+		<a href="../index.html">← Ejercicios</a>
+		<h1>08 · Navbar real: flex anidado</h1>
+		<p class="goal">Objetivo: construir la navbar del tutorial de StudyCode combinando dos contenedores flex, y hacer que se adapte a pantallas angostas sin media queries.</p>
+	</header>
+
+	<section class="demo">
+		<h2>Ancho completo</h2>
+		<div class="lab" data-label=".navbar">
+			<header class="navbar">
+				<div class="logo">StudyCode Pro</div>
+				<nav class="nav-links">
+					<a href="#">Inicio</a>
+					<a href="#">Blog</a>
+					<a href="#">Roadmaps</a>
+					<a href="#">Comunidad</a>
+				</nav>
+				<a class="btn cta" href="#">Únete gratis</a>
+			</header>
+		</div>
+	</section>
+
+	<section class="demo">
+		<h2>Pantalla angosta (360px)</h2>
+		<p class="hint">El mismo HTML y CSS dentro de un marco angosto, como en un móvil.</p>
+		<div class="lab frame-narrow" data-label=".navbar en 360px">
+			<header class="navbar">
+				<div class="logo">StudyCode Pro</div>
+				<nav class="nav-links">
+					<a href="#">Inicio</a>
+					<a href="#">Blog</a>
+					<a href="#">Roadmaps</a>
+					<a href="#">Comunidad</a>
+				</nav>
+				<a class="btn cta" href="#">Únete gratis</a>
+			</header>
+		</div>
+	</section>
+
+	<section class="demo">
+		<h2>Reto · botón con icono</h2>
+		<p class="hint">Icono y texto centrados en vertical, con espacio entre ellos.</p>
+		<a class="btn icon-btn" href="#">
+			<svg width="20" height="20" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2l3 7h7l-5.5 4.5 2 7.5-6.5-4.5-6.5 4.5 2-7.5L2 9h7z"/></svg>
+			Favoritos
+		</a>
+	</section>
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>07 · flex-grow, flex-shrink, flex-basis</title>
+	<link rel="stylesheet" href="../assets/base.css">
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<header class="exercise-header">
+		<a href="../index.html">← Ejercicios</a>
+		<h1>07 · flex-grow, flex-shrink y flex-basis</h1>
+		<p class="goal">Objetivo: controlar el tamaño de los ítems. Resolver "Flexbox 2" de MDN (tres columnas iguales y la primera al doble) y entender por qué <code>flex: 1</code> a veces <em>no</em> da anchos iguales.</p>
+	</header>
+
+	<section class="demo">
+		<h2>MDN · Flexbox 2 · .trio</h2>
+		<ul class="lab trio" data-label=".trio">
+			<li class="box">I am small</li>
+			<li class="box">I have more content than the very small item.</li>
+			<li class="box">I have lots of content. So much content that I don't know where it is all going to go. I'm glad that CSS is pretty good at dealing with situations where we end up with more words than expected!</li>
+		</ul>
+	</section>
+
+	<section class="demo">
+		<h2>flex-shrink · .shrink-lab</h2>
+		<p class="hint">Contenedor de 420px; cada caja quiere medir 200px (600px en total).</p>
+		<div class="lab shrink-lab" data-label=".shrink-lab">
+			<div class="box">A</div>
+			<div class="box">B</div>
+			<div class="box keep">C (no me encojo)</div>
+		</div>
+	</section>
+
+	<section class="demo">
+		<h2>La trampa · .equal</h2>
+		<p class="hint">Tres ítems con <code>flex: 1</code>. Uno tiene una URL larga que no se puede partir.</p>
+		<div class="lab equal" data-label=".equal">
+			<div class="box">Corto</div>
+			<div class="box">https://developer.mozilla.org/es/docs/Web/CSS/CSS_grid_layout/Relationship_of_grid_layout_with_other_layout_methods</div>
+			<div class="box">Corto</div>
+		</div>
+	</section>
+
+	<section class="demo">
+		<h2>Reto · .app</h2>
+		<p class="hint">Barra lateral fija de 250px y contenido fluido que ocupe el resto.</p>
+		<div class="lab app" data-label=".app">
+			<aside class="box sidebar">Sidebar 250px</aside>
+			<main class="box content">Contenido fluido. Haz la ventana más ancha y más angosta.</main>
+		</div>
+	</section>
+</body>
+</html>

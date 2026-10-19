@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>20 · Proyecto final: dashboard</title>
+	<link rel="stylesheet" href="../assets/base.css">
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<header class="exercise-header">
+		<a href="../index.html">← Ejercicios</a>
+		<h1>20 · Proyecto final: dashboard (grid macro + flex micro)</h1>
+		<p class="goal">Objetivo: combinar todo. Grid para la estructura de la página y las rejillas; flexbox para alinear dentro de cada pieza. El HTML está completo; el CSS de layout es 100% tuyo.</p>
+	</header>
+
+	<div class="dashboard">
+		<header class="dash-header">
+			<div class="dash-logo">🎸 RockAdmin</div>
+			<input class="dash-search" type="search" placeholder="Buscar conciertos…" aria-label="Buscar conciertos">
+			<div class="dash-user">
+				<span class="avatar" aria-hidden="true">CS</span>
+				<span>Cristian</span>
+			</div>
+		</header>
+
+		<nav class="dash-sidebar" aria-label="Principal">
+			<a href="#" class="active">Resumen</a>
+			<a href="#">Conciertos</a>
+			<a href="#">Boletos</a>
+			<a href="#">Artistas</a>
+			<a href="#">Ajustes</a>
+		</nav>
+
+		<main class="dash-main">
+			<section class="stats" aria-label="Indicadores">
+				<article class="stat">
+					<h2 class="stat-label">Boletos vendidos</h2>
+					<p class="stat-value">12,480</p>
+					<p class="stat-trend up">▲ 8% esta semana</p>
+				</article>
+				<article class="stat">
+					<h2 class="stat-label">Ingresos</h2>
+					<p class="stat-value">$932k</p>
+					<p class="stat-trend up">▲ 3%</p>
+				</article>
+				<article class="stat">
+					<h2 class="stat-label">Conciertos activos</h2>
+					<p class="stat-value">6</p>
+					<p class="stat-trend">Sin cambios</p>
+				</article>
+				<article class="stat">
+					<h2 class="stat-label">Reembolsos</h2>
+					<p class="stat-value">41</p>
+					<p class="stat-trend down">▼ 2%</p>
+				</article>
+			</section>
+
+			<section class="panels">
+				<article class="panel panel--featured">
+					<img src="../../img/banner.jpg" alt="Escenario de Rock Legends">
+					<div class="panel-caption">
+						<h2>Rock Legends 2026</h2>
+						<a class="btn" href="#">Ver detalles</a>
+					</div>
+				</article>
+				<article class="panel">
+					<h2>Próximos conciertos</h2>
+					<ul class="event-list">
+						<li><span>Rock In Rio</span><span class="chip">27 oct</span></li>
+						<li><span>FalconMasters' Concert</span><span class="chip">12 nov</span></li>
+						<li><span>Coachella</span><span class="chip">13 dic</span></li>
+						<li><span>US Festival</span><span class="chip">20 dic</span></li>
+					</ul>
+				</article>
+			</section>
+		</main>
+
+		<footer class="dash-footer">© 2026 RockAdmin · Ejercicio de layout</footer>
+	</div>
+</body>
+</html>

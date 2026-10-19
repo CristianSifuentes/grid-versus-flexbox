@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>13 · Responsive con áreas</title>
+	<link rel="stylesheet" href="../assets/base.css">
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<header class="exercise-header">
+		<a href="../index.html">← Ejercicios</a>
+		<h1>13 · Responsive mobile-first con áreas (y el orden accesible)</h1>
+		<p class="goal">Objetivo: redibujar el layout por tamaño de pantalla, reproducir y corregir el bug del tutorial de StudyCode, y comprobar que reordenar con grid no cambia el orden del teclado.</p>
+	</header>
+
+	<section class="demo">
+		<h2>.site</h2>
+		<p class="hint">Cambia el ancho de la ventana (o usa el modo responsive de DevTools) para ver cada versión.</p>
+		<div class="lab site" data-label=".site">
+			<header class="box site-header"><a href="#">1 · Header</a></header>
+			<nav class="box site-nav"><a href="#">2 · Nav</a></nav>
+			<main class="box site-main"><a href="#">3 · Main</a><p>Contenido principal de la página.</p></main>
+			<aside class="box site-aside"><a href="#">4 · Sidebar</a></aside>
+			<footer class="box site-footer"><a href="#">5 · Footer</a></footer>
+		</div>
+	</section>
+
+	<section class="demo">
+		<h2>El bug de StudyCode · .buggy</h2>
+		<p class="hint">Desktop-first con filas fijas. Haz la ventana menor de 768px.</p>
+		<div class="lab buggy" data-label=".buggy">
+			<header class="box b-header">Header</header>
+			<nav class="box b-nav">Nav</nav>
+			<main class="box b-main">Main</main>
+			<aside class="box b-aside">Sidebar</aside>
+			<footer class="box b-footer">Footer</footer>
+		</div>
+	</section>
+</body>
+</html>

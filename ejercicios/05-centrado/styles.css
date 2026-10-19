@@ -1,0 +1,35 @@
+/* =========================================================
+   05 · Centrado perfecto
+   Escribe tu código debajo de cada paso. Guía: README.md
+   ========================================================= */
+
+/* Punto de partida */
+.stage,
+.screen {
+	min-height: 220px;
+}
+
+.overlay {
+	background: rgba(0, 0, 0, 0.6);
+}
+
+.dialog {
+	background: var(--surface-2);
+	padding: 24px;
+	border-radius: var(--radius);
+}
+
+/* Paso 1 · Centrar con flexbox */
+
+
+/* Paso 2 · Centrar con grid */
+
+
+/* Paso 3 · Centrar con margin: auto */
+
+
+/* Paso 4 · Agrega gap y observa la diferencia con dos hijos */
+
+
+/* Reto · modal */
+

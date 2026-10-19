@@ -1,0 +1,40 @@
+/* =========================================================
+   08 · Navbar con flex anidado
+   Escribe tu código debajo de cada paso. Guía: README.md
+   ========================================================= */
+
+/* Punto de partida: solo apariencia */
+.navbar {
+	background: var(--surface-2);
+	padding: 1rem 1.5rem;
+	border-radius: var(--radius);
+}
+
+.logo {
+	font-weight: 700;
+	font-size: 1.2rem;
+}
+
+.nav-links a {
+	color: var(--text);
+	text-decoration: none;
+}
+
+.nav-links a:hover {
+	color: var(--accent);
+}
+
+/* Paso 1 · Contenedor exterior */
+
+
+/* Paso 2 · Contenedor interior (.nav-links) */
+
+
+/* Paso 3 · Variante con margin-left: auto */
+
+
+/* Paso 4 · Que se adapte en angosto */
+
+
+/* Reto · .icon-btn */
+

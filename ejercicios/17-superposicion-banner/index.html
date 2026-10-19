@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>17 · Superposición con grid</title>
+	<link rel="stylesheet" href="../assets/base.css">
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<header class="exercise-header">
+		<a href="../index.html">← Ejercicios</a>
+		<h1>17 · Superposición: varios ítems en la misma celda</h1>
+		<p class="goal">Objetivo: poner texto encima de una imagen con grid (sin <code>position: absolute</code>), controlar qué queda arriba con <code>z-index</code>, y ver por qué el contenedor sigue midiendo su contenido.</p>
+	</header>
+
+	<section class="demo">
+		<h2>.banner</h2>
+		<div class="lab" data-label=".banner">
+			<section class="banner">
+				<img class="banner-img" src="../../img/banner.jpg" alt="Escenario iluminado del festival">
+				<div class="banner-text">
+					<h2>Rock Legends 2026</h2>
+					<p>Guns N' Roses · AC/DC · Mötley Crüe · The Cult · Poison · Def Leppard</p>
+					<a class="btn" href="#">Comprar boletos</a>
+				</div>
+				<span class="banner-badge">¡Últimos lugares!</span>
+			</section>
+		</div>
+	</section>
+
+	<section class="demo">
+		<h2>Reto · .concerts</h2>
+		<p class="hint">Tarjetas del proyecto principal: nombre y fecha encima de cada foto, abajo a la izquierda.</p>
+		<div class="lab concerts" data-label=".concerts">
+			<article class="concert">
+				<img src="../../img/1.jpg" alt="">
+				<div class="concert-info"><h3>Rock In Rio</h3><p>27 de octubre</p></div>
+			</article>
+			<article class="concert">
+				<img src="../../img/2.jpg" alt="">
+				<div class="concert-info"><h3>FalconMasters' Concert</h3><p>12 de noviembre</p></div>
+			</article>
+			<article class="concert">
+				<img src="../../img/3.jpg" alt="">
+				<div class="concert-info"><h3>Coachella</h3><p>13 de diciembre</p></div>
+			</article>
+		</div>
+	</section>
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>02 · Ejes y flex-direction</title>
+	<link rel="stylesheet" href="../assets/base.css">
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<header class="exercise-header">
+		<a href="../index.html">← Ejercicios</a>
+		<h1>02 · Eje principal, eje cruzado y flex-direction</h1>
+		<p class="goal">Objetivo: ver que <code>justify-content</code> trabaja en el eje principal, <code>align-items</code> en el cruzado, y que en <code>column</code> los ejes se voltean.</p>
+	</header>
+
+	<section class="demo">
+		<h2>Demo A · .axis</h2>
+		<p class="hint">Contenedor alto (240px) para que haya espacio libre en los dos ejes.</p>
+		<div class="lab axis" data-label=".axis">
+			<div class="box">1</div>
+			<div class="box">2</div>
+			<div class="box">3</div>
+		</div>
+	</section>
+
+	<section class="demo">
+		<h2>Demo B · .axis--reverse</h2>
+		<p class="hint">Mismo HTML (1, 2, 3) en distinto orden visual.</p>
+		<div class="lab axis--reverse" data-label=".axis--reverse">
+			<a class="box" href="#">1 (Tab)</a>
+			<a class="box" href="#">2 (Tab)</a>
+			<a class="box" href="#">3 (Tab)</a>
+		</div>
+	</section>
+
+	<section class="demo">
+		<h2>Demo C · Dirección de escritura</h2>
+		<p class="hint">Dos contenedores con la misma clase. El segundo tiene <code>dir="rtl"</code> (árabe, hebreo).</p>
+		<div class="lab writing" data-label='.writing (dir="ltr")'>
+			<div class="box">1</div>
+			<div class="box">2</div>
+			<div class="box">3</div>
+		</div>
+		<div class="lab writing" dir="rtl" data-label='.writing (dir="rtl")'>
+			<div class="box">1</div>
+			<div class="box">2</div>
+			<div class="box">3</div>
+		</div>
+	</section>
+
+	<section class="demo">
+		<h2>Reto · .corner</h2>
+		<p class="hint">Apila las cajas en columna y llévalas a la esquina inferior derecha.</p>
+		<div class="lab corner" data-label=".corner">
+			<div class="box">A</div>
+			<div class="box">B</div>
+		</div>
+	</section>
+</body>
+</html>

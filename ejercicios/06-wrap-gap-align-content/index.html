@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>06 · flex-wrap, gap y align-content</title>
+	<link rel="stylesheet" href="../assets/base.css">
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<header class="exercise-header">
+		<a href="../index.html">← Ejercicios</a>
+		<h1>06 · flex-wrap, gap y align-content</h1>
+		<p class="goal">Objetivo: hacer que los ítems salten de línea (ejercicio "Flexbox 3" de MDN), espaciarlos con <code>gap</code> en vez de <code>margin</code>, y ver por qué las líneas de flex <strong>no se alinean en columnas</strong>.</p>
+	</header>
+
+	<section class="demo">
+		<h2>MDN · Flexbox 3 · .veggies</h2>
+		<p class="hint">Diez verduras en un contenedor de 450px.</p>
+		<ul class="lab veggies" data-label=".veggies">
+			<li>Turnip</li>
+			<li>greens</li>
+			<li>yarrow</li>
+			<li>ricebean</li>
+			<li>rutabaga</li>
+			<li>endive</li>
+			<li>cauliflower</li>
+			<li>sea lettuce</li>
+			<li>kohlrabi</li>
+			<li>amaranth</li>
+		</ul>
+	</section>
+
+	<section class="demo">
+		<h2>align-content · .lines</h2>
+		<p class="hint">Contenedor alto (320px) con varias líneas.</p>
+		<div class="lab lines" data-label=".lines">
+			<div class="box">1</div><div class="box">2</div><div class="box">3</div><div class="box">4</div>
+			<div class="box">5</div><div class="box">6</div><div class="box">7</div><div class="box">8</div>
+		</div>
+	</section>
+
+	<section class="demo">
+		<h2>Reto · .wrapper de MDN</h2>
+		<p class="hint">Cinco ítems que crecen desde 200px y saltan de línea.</p>
+		<div class="lab mdn-wrapper" data-label=".mdn-wrapper">
+			<div class="box">One</div>
+			<div class="box">Two</div>
+			<div class="box">Three</div>
+			<div class="box">Four</div>
+			<div class="box">Five</div>
+		</div>
+	</section>
+</body>
+</html>

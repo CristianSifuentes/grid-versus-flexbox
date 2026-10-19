@@ -1,0 +1,48 @@
+/* =========================================================
+   06 · flex-wrap, gap y align-content
+   Escribe tu código debajo de cada paso. Guía: README.md
+   ========================================================= */
+
+/* Punto de partida (estilos del ejercicio de MDN) */
+.veggies {
+	width: 450px;
+	max-width: 100%;
+	list-style: none;
+}
+
+.veggies li {
+	background-color: #4d7298;
+	border: 2px solid #77a6b6;
+	border-radius: 0.5em;
+	color: white;
+	padding: 0.5em;
+	margin: 0.5em; /* ← en el paso 3 lo cambias por gap */
+}
+
+.lines {
+	width: 360px;
+	max-width: 100%;
+	height: 320px;
+}
+
+.lines .box {
+	width: 70px;
+}
+
+/* Paso 1 · display: flex y nada más */
+
+
+/* Paso 2 · flex-wrap */
+
+
+/* Paso 3 · gap en lugar de margin */
+
+
+/* Paso 4 · Que cada línea se llene */
+
+
+/* Paso 5 · align-content */
+
+
+/* Reto · .mdn-wrapper */
+

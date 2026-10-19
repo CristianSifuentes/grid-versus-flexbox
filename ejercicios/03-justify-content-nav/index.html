@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>03 · justify-content y navegación</title>
+	<link rel="stylesheet" href="../assets/base.css">
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<header class="exercise-header">
+		<a href="../index.html">← Ejercicios</a>
+		<h1>03 · justify-content: repartir el espacio libre</h1>
+		<p class="goal">Objetivo: comparar los seis valores de <code>justify-content</code> y construir el menú del ejercicio "Flexbox 1" de MDN.</p>
+	</header>
+
+	<section class="demo">
+		<h2>Laboratorio · seis valores</h2>
+		<p class="hint">Cada franja tiene las mismas tres cajas. Solo cambia el valor.</p>
+		<div class="lab strip strip--start" data-label="flex-start"><div class="box">1</div><div class="box">2</div><div class="box">3</div></div>
+		<div class="lab strip strip--center" data-label="center"><div class="box">1</div><div class="box">2</div><div class="box">3</div></div>
+		<div class="lab strip strip--end" data-label="flex-end"><div class="box">1</div><div class="box">2</div><div class="box">3</div></div>
+		<div class="lab strip strip--between" data-label="space-between"><div class="box">1</div><div class="box">2</div><div class="box">3</div></div>
+		<div class="lab strip strip--around" data-label="space-around"><div class="box">1</div><div class="box">2</div><div class="box">3</div></div>
+		<div class="lab strip strip--evenly" data-label="space-evenly"><div class="box">1</div><div class="box">2</div><div class="box">3</div></div>
+	</section>
+
+	<section class="demo">
+		<h2>MDN · Flexbox 1 · menú</h2>
+		<p class="hint">Pon los enlaces en fila con el mismo espacio entre cada uno.</p>
+		<nav class="lab mdn-nav" data-label="nav ul">
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">About Us</a></li>
+				<li><a href="#">Our Products</a></li>
+				<li><a href="#">Contact Us</a></li>
+			</ul>
+		</nav>
+	</section>
+
+	<section class="demo">
+		<h2>Reto · .site-nav</h2>
+		<p class="hint">Logo a la izquierda y enlaces <strong>juntos</strong> a la derecha, sin agregar ningún div.</p>
+		<nav class="lab" data-label=".site-nav">
+			<ul class="site-nav">
+				<li class="logo">MiLogo</li>
+				<li><a href="#">Inicio</a></li>
+				<li><a href="#">Blog</a></li>
+				<li><a href="#">Contacto</a></li>
+			</ul>
+		</nav>
+	</section>
+</body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>19 · display: contents y subgrid</title>
+	<link rel="stylesheet" href="../assets/base.css">
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<header class="exercise-header">
+		<a href="../index.html">← Ejercicios</a>
+		<h1>19 · Nietos en el grid: display: contents y subgrid</h1>
+		<p class="goal">Objetivo: hacer que elementos anidados participen del grid del abuelo, primero con <code>display: contents</code> (MDN) y luego con <code>subgrid</code>, la solución moderna.</p>
+	</header>
+
+	<section class="demo">
+		<h2>Demo A · .wrapper (ejemplo de MDN)</h2>
+		<div class="lab wrapper" data-label=".wrapper">
+			<div class="box box1">
+				<div class="nested">a</div>
+				<div class="nested">b</div>
+				<div class="nested">c</div>
+			</div>
+			<div class="box">Two</div>
+			<div class="box">Three</div>
+			<div class="box">Four</div>
+			<div class="box">Five</div>
+		</div>
+	</section>
+
+	<section class="demo">
+		<h2>Demo B · .plans (tarjetas desalineadas)</h2>
+		<p class="hint">Títulos y textos de distinto largo. Queremos que título, texto y botón queden alineados <em>entre</em> tarjetas.</p>
+		<div class="lab plans" data-label=".plans">
+			<article class="plan">
+				<h3>Básico</h3>
+				<p>Acceso general.</p>
+				<a class="btn" href="#">Elegir</a>
+			</article>
+			<article class="plan">
+				<h3>Plan Premium con nombre muy largo</h3>
+				<p>Acceso general, zona preferente, estacionamiento y una bebida de cortesía en cualquier barra del festival.</p>
+				<a class="btn" href="#">Elegir</a>
+			</article>
+			<article class="plan">
+				<h3>VIP</h3>
+				<p>Todo lo anterior más backstage.</p>
+				<a class="btn" href="#">Elegir</a>
+			</article>
+		</div>
+	</section>
+
+	<section class="demo">
+		<h2>Reto · .form</h2>
+		<p class="hint">Etiquetas en una columna y campos en otra, alineados aunque cada par está dentro de su propio <code>.field</code>.</p>
+		<form class="lab form" data-label=".form">
+			<div class="field"><label for="n">Nombre</label><input id="n"></div>
+			<div class="field"><label for="e">Correo electrónico</label><input id="e" type="email"></div>
+			<div class="field"><label for="t">Tel.</label><input id="t" type="tel"></div>
+		</form>
+	</section>
+</body>
+</html>

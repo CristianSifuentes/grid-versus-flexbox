@@ -5,7 +5,8 @@
   "description": "Tutorial code: CSS Grid vs. Flexbox – When to use one or the other",
   "scripts": {
     "start": "live-server --port=5500 --open=index.html --watch=index.html,styles.css,img",
-    "dev": "npm start"
+    "dev": "npm start",
+    "ejercicios": "live-server --port=5501 --open=ejercicios/index.html"
   },
   "devDependencies": {
     "live-server": "^1.2.2"

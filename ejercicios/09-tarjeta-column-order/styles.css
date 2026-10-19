@@ -1,0 +1,49 @@
+/* =========================================================
+   09 · Tarjetas: flex en columna, pie abajo y order
+   Escribe tu código debajo de cada paso. Guía: README.md
+   ========================================================= */
+
+/* Punto de partida: solo apariencia */
+.card {
+	background: var(--surface-2);
+	border-radius: var(--radius);
+	overflow: hidden;
+	padding-bottom: 1rem;
+}
+
+.card h3,
+.card p,
+.card-footer {
+	padding: 0 1rem;
+}
+
+.card img {
+	width: 100%;
+	object-fit: cover;
+}
+
+.price {
+	font-weight: 700;
+	font-size: 1.3rem;
+}
+
+/* Paso 1 · Tarjetas en fila */
+
+
+/* Paso 2 · Contenido de cada tarjeta en columna */
+
+
+/* Paso 3 · flex-basis en columna = altura */
+
+
+/* Paso 4 · Pie abajo con margin-top: auto */
+
+
+/* Paso 5 · (Comparar) justify-content: space-between */
+
+
+/* Paso 6 · order y el orden del Tab */
+
+
+/* Reto · .card-footer en fila */
+

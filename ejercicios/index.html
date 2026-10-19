@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Ejercicios · Flexbox y Grid</title>
+	<link rel="stylesheet" href="assets/base.css">
+	<style>
+		/* Esta página sí usa grid: es el índice, no un ejercicio */
+		.index {
+			max-width: 1100px;
+			margin: 0 auto;
+			display: grid;
+			grid-template-columns: repeat(auto-fill, minmax(min(300px, 100%), 1fr));
+			gap: 1rem;
+			list-style: none;
+		}
+
+		.index a {
+			display: block;
+			height: 100%;
+			background: var(--surface);
+			border: 1px solid var(--surface-2);
+			border-radius: var(--radius);
+			padding: 1rem;
+			color: var(--text);
+			text-decoration: none;
+		}
+
+		.index a:hover {
+			border-color: var(--accent);
+		}
+
+		.index .num {
+			color: var(--accent);
+			font: 700 0.85rem ui-monospace, monospace;
+		}
+
+		.index h2 {
+			font-size: 1.05rem;
+			margin: 4px 0 6px;
+		}
+
+		.index p {
+			color: var(--muted);
+			font-size: 0.85rem;
+		}
+
+		.part {
+			max-width: 1100px;
+			margin: 32px auto 12px;
+			font-size: 1.2rem;
+		}
+	</style>
+</head>
+<body>
+	<header class="exercise-header">
+		<h1>Flexbox y Grid · 20 ejercicios</h1>
+		<p class="goal">Cada ejercicio tiene un <code>index.html</code> de partida, un <code>styles.css</code> casi vacío donde escribes tú, y un <code>README.md</code> con la guía paso a paso, el checklist y las soluciones de los retos.</p>
+	</header>
+
+	<h2 class="part">Parte 1 · Flexbox (una dimensión)</h2>
+	<ul class="index">
+		<li><a href="01-contenedor-flex/"><span class="num">01</span><h2>Contenedor e ítems flex</h2><p>display: flex, hijos directos, valores por defecto, inline-flex</p></a></li>
+		<li><a href="02-ejes-flex-direction/"><span class="num">02</span><h2>Ejes y flex-direction</h2><p>Eje principal y cruzado, column voltea los ejes, row-reverse, rtl</p></a></li>
+		<li><a href="03-justify-content-nav/"><span class="num">03</span><h2>justify-content y navegación</h2><p>Seis valores, menú de MDN, margin: auto</p></a></li>
+		<li><a href="04-align-items-self/"><span class="num">04</span><h2>align-items y align-self</h2><p>stretch, baseline, columnas de igual altura</p></a></li>
+		<li><a href="05-centrado/"><span class="num">05</span><h2>Centrado perfecto</h2><p>flex, place-items, margin: auto, modal</p></a></li>
+		<li><a href="06-wrap-gap-align-content/"><span class="num">06</span><h2>flex-wrap, gap y align-content</h2><p>Líneas independientes, gap contra margin</p></a></li>
+		<li><a href="07-grow-shrink-basis/"><span class="num">07</span><h2>grow, shrink y basis</h2><p>flex: 1, flex: 2, min-width: 0, sidebar fija</p></a></li>
+		<li><a href="08-navbar-flex-anidado/"><span class="num">08</span><h2>Navbar con flex anidado</h2><p>space-between, margin-left: auto, wrap en móvil</p></a></li>
+		<li><a href="09-tarjeta-column-order/"><span class="num">09</span><h2>Tarjetas en columna y order</h2><p>Pie abajo, flex-basis como altura, order y Tab</p></a></li>
+	</ul>
+
+	<h2 class="part">Parte 2 · Grid (dos dimensiones)</h2>
+	<ul class="index">
+		<li><a href="10-primer-grid/"><span class="num">10</span><h2>Primer grid</h2><p>Pistas, fr, gap, grid implícito, flex contra grid</p></a></li>
+		<li><a href="11-lineas-grid/"><span class="num">11</span><h2>Colocar por líneas</h2><p>grid-column, span, -1, grid-area con 4 líneas</p></a></li>
+		<li><a href="12-template-areas/"><span class="num">12</span><h2>grid-template-areas</h2><p>Layout de página, celdas vacías, áreas rectangulares</p></a></li>
+		<li><a href="13-responsive-areas/"><span class="num">13</span><h2>Responsive con áreas</h2><p>Mobile first, el bug de las filas, orden accesible</p></a></li>
+		<li><a href="14-galeria-auto-fit/"><span class="num">14</span><h2>Galería auto-fill / auto-fit</h2><p>minmax, min(), aspect-ratio, dense</p></a></li>
+		<li><a href="15-tamanos-pista-hero/"><span class="num">15</span><h2>Tamaños de pista y hero</h2><p>minmax(0, 1fr), min/max-content, fit-content</p></a></li>
+		<li><a href="16-alineacion-grid/"><span class="num">16</span><h2>Box Alignment en grid</h2><p>-items, -self, -content, start/end</p></a></li>
+		<li><a href="17-superposicion-banner/"><span class="num">17</span><h2>Superposición</h2><p>Misma celda, z-index, banner con texto</p></a></li>
+	</ul>
+
+	<h2 class="part">Parte 3 · Integración</h2>
+	<ul class="index">
+		<li><a href="18-absolute-en-grid/"><span class="num">18</span><h2>position: absolute en grid</h2><p>Bloque contenedor, grid area, fuera del flujo</p></a></li>
+		<li><a href="19-contents-subgrid/"><span class="num">19</span><h2>display: contents y subgrid</h2><p>Nietos en el grid, tarjetas alineadas, formulario</p></a></li>
+		<li><a href="20-dashboard-final/"><span class="num">20</span><h2>Proyecto final: dashboard</h2><p>Grid macro + flex micro, todo junto</p></a></li>
+	</ul>
+</body>
+</html>

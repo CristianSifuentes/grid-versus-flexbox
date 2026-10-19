@@ -1,0 +1,60 @@
+/* =========================================================
+   13 · Responsive mobile-first con áreas
+   Escribe tu código debajo de cada paso. Guía: README.md
+   ========================================================= */
+
+/* Punto de partida */
+.site,
+.buggy {
+	min-height: 520px;
+}
+
+.box a {
+	color: #fff;
+}
+
+/* ---------- .buggy: el código del tutorial, tal cual (no lo toques) ---------- */
+.buggy {
+	display: grid;
+	grid-template-columns: 200px 1fr 250px;
+	grid-template-rows: 80px 1fr 60px;
+	grid-template-areas:
+		"header header header"
+		"nav main sidebar"
+		"footer footer footer";
+	gap: 1rem;
+}
+
+.b-header { grid-area: header; }
+.b-nav    { grid-area: nav; }
+.b-main   { grid-area: main; }
+.b-aside  { grid-area: sidebar; }
+.b-footer { grid-area: footer; }
+
+@media (max-width: 768px) {
+	.buggy {
+		grid-template-columns: 1fr;
+		grid-template-areas:
+			"header"
+			"nav"
+			"main"
+			"sidebar"
+			"footer";
+	}
+}
+
+/* Paso 4 · Corrige .buggy aquí (agrega lo que le falta al media query) */
+
+
+/* ---------- .site: tu versión mobile-first ---------- */
+
+/* Paso 1 · Base = móvil (sin media query) */
+
+
+/* Paso 2 · Tablet (min-width: 640px) */
+
+
+/* Paso 3 · Escritorio (min-width: 1024px) */
+
+/* Paso 5 · Se hace editando el mapa del paso 1 (ver README) */
+

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>05 · Centrado perfecto</title>
+	<link rel="stylesheet" href="../assets/base.css">
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<header class="exercise-header">
+		<a href="../index.html">← Ejercicios</a>
+		<h1>05 · Centrado perfecto: tres formas</h1>
+		<p class="goal">Objetivo: centrar en los dos ejes con flexbox, con grid y con <code>margin: auto</code>, y ver en qué se diferencian cuando hay más de un hijo.</p>
+	</header>
+
+	<section class="demo">
+		<h2>Tres escenarios con un solo hijo</h2>
+		<div class="lab stage stage--flex" data-label=".stage--flex"><div class="box">Centrada con flex</div></div>
+		<div class="lab stage stage--grid" data-label=".stage--grid"><div class="box">Centrada con grid</div></div>
+		<div class="lab stage stage--margin" data-label=".stage--margin"><div class="box">Centrada con margin: auto</div></div>
+	</section>
+
+	<section class="demo">
+		<h2>Con dos hijos</h2>
+		<p class="hint">Mismo CSS que arriba, pero ahora hay dos cajas.</p>
+		<div class="lab stage stage--flex" data-label=".stage--flex (2 hijos)"><div class="box">A</div><div class="box">B</div></div>
+		<div class="lab stage stage--grid" data-label=".stage--grid (2 hijos)"><div class="box">A</div><div class="box">B</div></div>
+	</section>
+
+	<section class="demo">
+		<h2>Reto · modal</h2>
+		<p class="hint">Centra el cuadro de diálogo sobre la "pantalla", tapándola por completo con el fondo oscuro.</p>
+		<div class="lab screen" data-label=".screen">
+			<p>Contenido de la página detrás del modal. Lorem ipsum dolor sit amet.</p>
+			<div class="overlay">
+				<div class="dialog">
+					<h3>¿Guardar cambios?</h3>
+					<button class="btn">Guardar</button>
+				</div>
+			</div>
+		</div>
+	</section>
+</body>
+</html>

@@ -1,0 +1,33 @@
+/* =========================================================
+   11 · Colocar ítems por líneas
+   Escribe tu código debajo de cada paso. Guía: README.md
+   ========================================================= */
+
+/* Punto de partida */
+.plan {
+	font: 0.9rem / 1.2 ui-monospace, monospace;
+	color: var(--muted);
+	margin-bottom: 12px;
+	overflow-x: auto;
+}
+
+/* Paso 1 · El tablero */
+
+
+/* Paso 2 · .a de la línea 1 a la 3 */
+
+
+/* Paso 3 · .b hasta la última línea con -1 */
+
+
+/* Paso 4 · .c ocupa dos filas */
+
+
+/* Paso 5 · .d con span */
+
+
+/* Paso 6 · .e con grid-area (4 líneas) */
+
+
+/* Reto · .magazine */
+

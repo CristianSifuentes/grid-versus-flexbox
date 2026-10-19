@@ -1,0 +1,32 @@
+/* =========================================================
+   04 · align-items y align-self
+   Escribe tu código debajo de cada paso. Guía: README.md
+   ========================================================= */
+
+/* Punto de partida */
+.cross {
+	min-height: 140px;
+}
+
+.big {
+	font-size: 2rem;
+}
+
+.mdn-wrapper {
+	min-height: 200px;
+}
+
+/* Paso 1 · Todas las franjas son flex */
+
+
+/* Paso 2 · Un valor de align-items por franja */
+
+
+/* Paso 3 · La trampa: stretch y una altura fija */
+
+
+/* Paso 4 · Ejemplo de MDN con align-self */
+
+
+/* Reto · .columns */
+

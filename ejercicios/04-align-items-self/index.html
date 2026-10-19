@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>04 · align-items y align-self</title>
+	<link rel="stylesheet" href="../assets/base.css">
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<header class="exercise-header">
+		<a href="../index.html">← Ejercicios</a>
+		<h1>04 · align-items y align-self: el eje cruzado</h1>
+		<p class="goal">Objetivo: dominar la alineación en el eje cruzado, entender <code>stretch</code> (columnas de igual altura), <code>baseline</code>, y sobrescribir un solo ítem con <code>align-self</code>.</p>
+	</header>
+
+	<section class="demo">
+		<h2>Laboratorio · cinco valores</h2>
+		<p class="hint">Cada franja mide 140px de alto. Las cajas tienen distinto tamaño de letra para que se note <code>baseline</code>.</p>
+		<div class="lab cross cross--stretch" data-label="stretch (por defecto)"><div class="box">1</div><div class="box big">2</div><div class="box">3 con<br>dos líneas</div></div>
+		<div class="lab cross cross--start" data-label="flex-start"><div class="box">1</div><div class="box big">2</div><div class="box">3 con<br>dos líneas</div></div>
+		<div class="lab cross cross--center" data-label="center"><div class="box">1</div><div class="box big">2</div><div class="box">3 con<br>dos líneas</div></div>
+		<div class="lab cross cross--end" data-label="flex-end"><div class="box">1</div><div class="box big">2</div><div class="box">3 con<br>dos líneas</div></div>
+		<div class="lab cross cross--baseline" data-label="baseline"><div class="box">1</div><div class="box big">2</div><div class="box">3 con<br>dos líneas</div></div>
+	</section>
+
+	<section class="demo">
+		<h2>MDN · alineación con align-self</h2>
+		<p class="hint">Todo al final, salvo One (estirado) y Two (al inicio).</p>
+		<div class="lab mdn-wrapper" data-label=".mdn-wrapper">
+			<div class="box box1">One</div>
+			<div class="box box2">Two</div>
+			<div class="box box3">Three</div>
+		</div>
+	</section>
+
+	<section class="demo">
+		<h2>Reto · .columns</h2>
+		<p class="hint">Tres columnas de igual altura aunque su texto sea distinto; la tercera, centrada en vertical y sin estirarse.</p>
+		<div class="lab columns" data-label=".columns">
+			<article class="box">Columna corta.</article>
+			<article class="box">Columna con mucho más contenido. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</article>
+			<article class="box col-centered">Yo voy centrada.</article>
+		</div>
+	</section>
+</body>
+</html>

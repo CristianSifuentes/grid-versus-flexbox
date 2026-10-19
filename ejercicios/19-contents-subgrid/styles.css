@@ -1,0 +1,46 @@
+/* =========================================================
+   19 · display: contents y subgrid
+   Escribe tu código debajo de cada paso. Guía: README.md
+   ========================================================= */
+
+/* Punto de partida */
+.nested {
+	background: rgba(0, 0, 0, 0.3);
+	border: 1px dashed rgba(255, 255, 255, 0.6);
+	padding: 8px;
+	border-radius: 6px;
+}
+
+.plan {
+	background: var(--surface-2);
+	border-radius: var(--radius);
+	padding: 1rem;
+}
+
+.plan .btn {
+	justify-self: start;
+}
+
+.form input {
+	background: var(--bg);
+	color: var(--text);
+	border: 1px solid var(--outline);
+	border-radius: 6px;
+	padding: 8px;
+	font: inherit;
+}
+
+/* Paso 1 · El grid de MDN */
+
+
+/* Paso 2 · display: contents en .box1 */
+
+
+/* Paso 3 · Grid de tarjetas sin subgrid */
+
+
+/* Paso 4 · subgrid en las filas */
+
+
+/* Reto · .form con subgrid en columnas */
+

@@ -1,0 +1,60 @@
+/* =========================================================
+   18 · position: absolute dentro de un grid
+   Escribe tu código debajo de cada paso. Guía: README.md
+   ========================================================= */
+
+/* Punto de partida */
+.wrapper,
+.wrapper-b,
+.notifications {
+	outline: 2px dashed var(--outline);
+	outline-offset: 4px;
+	background: var(--surface);
+	border-radius: var(--radius);
+	padding: 8px;
+}
+
+.box3 {
+	opacity: 0.9;
+}
+
+.abspos {
+	background: rgba(255, 255, 255, 0.85);
+	color: #000;
+	border: 1px solid rgba(0, 0, 0, 0.5);
+	padding: 10px;
+	font-weight: 400;
+}
+
+.count {
+	background: #E53935;
+	color: #fff;
+	font-size: 0.75rem;
+	min-width: 24px;
+	height: 24px;
+	padding: 0 6px;
+	border-radius: 100px;
+	text-align: center;
+	line-height: 24px;
+}
+
+/* Paso 1 · El grid de MDN */
+
+
+/* Paso 2 · .box3 colocada por líneas */
+
+
+/* Paso 3 · position: absolute SIN contenedor posicionado */
+
+
+/* Paso 4 · position: relative en el contenedor */
+
+
+/* Paso 5 · Quita las líneas de .box3 */
+
+
+/* Paso 6 · Demo B: grid area como padre */
+
+
+/* Reto · .notifications */
+

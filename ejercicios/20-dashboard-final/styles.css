@@ -1,0 +1,127 @@
+/* =========================================================
+   20 · Proyecto final: dashboard
+   Escribe tu código debajo de cada paso. Guía: README.md
+   ========================================================= */
+
+/* Punto de partida: solo apariencia (sin flex ni grid) */
+.dashboard {
+	max-width: 1100px;
+	margin: 0 auto;
+}
+
+.dash-header,
+.dash-sidebar,
+.stat,
+.panel,
+.dash-footer {
+	background: var(--surface);
+	border-radius: var(--radius);
+	padding: 1rem;
+}
+
+.dash-logo {
+	font-weight: 700;
+	font-size: 1.2rem;
+}
+
+.dash-search {
+	background: var(--bg);
+	color: var(--text);
+	border: 1px solid var(--outline);
+	border-radius: 100px;
+	padding: 8px 16px;
+	font: inherit;
+}
+
+.avatar {
+	background: var(--c2);
+	width: 36px;
+	height: 36px;
+	border-radius: 50%;
+	font-weight: 700;
+	font-size: 0.8rem;
+}
+
+.dash-sidebar a {
+	color: var(--muted);
+	text-decoration: none;
+	padding: 8px 12px;
+	border-radius: 6px;
+}
+
+.dash-sidebar a.active,
+.dash-sidebar a:hover {
+	background: var(--surface-2);
+	color: var(--text);
+}
+
+.stat-label {
+	font-size: 0.85rem;
+	color: var(--muted);
+	font-weight: 400;
+}
+
+.stat-value {
+	font-size: 2rem;
+	font-weight: 700;
+}
+
+.stat-trend { font-size: 0.85rem; color: var(--muted); }
+.stat-trend.up { color: #4CAF50; }
+.stat-trend.down { color: #EF5350; }
+
+.panel--featured {
+	padding: 0;
+	overflow: hidden;
+}
+
+.panel-caption {
+	padding: 1.5rem;
+	background: linear-gradient(to top, rgba(0, 0, 0, 0.85), transparent);
+}
+
+.event-list {
+	list-style: none;
+	margin-top: 0.75rem;
+}
+
+.event-list li {
+	padding: 10px 0;
+	border-bottom: 1px solid var(--surface-2);
+}
+
+.dash-footer {
+	color: var(--muted);
+	font-size: 0.85rem;
+	text-align: center;
+}
+
+/* Paso 1 · Variables CSS de layout */
+
+
+/* Paso 2 · Macro layout móvil (grid + áreas) */
+
+
+/* Paso 3 · Macro layout escritorio */
+
+
+/* Paso 4 · Header con flex */
+
+
+/* Paso 5 · Sidebar */
+
+
+/* Paso 6 · Stats con auto-fit */
+
+
+/* Paso 7 · Cada stat con flex en columna */
+
+
+/* Paso 8 · Paneles */
+
+
+/* Paso 9 · Panel destacado con superposición */
+
+
+/* Paso 10 · Lista de eventos con flex */
+

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>09 · Tarjetas en columna y order</title>
+	<link rel="stylesheet" href="../assets/base.css">
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<header class="exercise-header">
+		<a href="../index.html">← Ejercicios</a>
+		<h1>09 · Tarjetas: flex en columna, pie abajo y order</h1>
+		<p class="goal">Objetivo: apilar el contenido de una tarjeta con <code>flex-direction: column</code>, empujar el botón hasta abajo, ver que <code>flex-basis</code> es altura en columna, y comprobar el problema de accesibilidad de <code>order</code>.</p>
+	</header>
+
+	<section class="demo">
+		<h2>.cards</h2>
+		<div class="lab cards" data-label=".cards">
+			<article class="card">
+				<img src="../../img/1.jpg" alt="Escenario de Rock in Rio">
+				<h3>Rock In Rio</h3>
+				<p>Texto corto.</p>
+				<div class="card-footer">
+					<span class="price">$80</span>
+					<a class="btn buy" href="#">Comprar 1</a>
+					<a class="details" href="#">Detalles 1</a>
+				</div>
+			</article>
+			<article class="card">
+				<img src="../../img/2.jpg" alt="Público en concierto">
+				<h3>FalconMasters' Concert</h3>
+				<p>Esta descripción es bastante más larga que la de las demás tarjetas para que se note la diferencia de alturas del contenido.</p>
+				<div class="card-footer">
+					<span class="price">$45</span>
+					<a class="btn buy" href="#">Comprar 2</a>
+					<a class="details" href="#">Detalles 2</a>
+				</div>
+			</article>
+			<article class="card">
+				<img src="../../img/3.jpg" alt="Luces de Coachella">
+				<h3>Coachella</h3>
+				<p>Texto mediano para la tercera tarjeta.</p>
+				<div class="card-footer">
+					<span class="price">$120</span>
+					<a class="btn buy" href="#">Comprar 3</a>
+					<a class="details" href="#">Detalles 3</a>
+				</div>
+			</article>
+		</div>
+	</section>
+</body>
+</html>

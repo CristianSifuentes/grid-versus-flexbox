@@ -1,0 +1,38 @@
+/* =========================================================
+   03 · justify-content y navegación
+   Escribe tu código debajo de cada paso. Guía: README.md
+   ========================================================= */
+
+/* Punto de partida: estilos del menú de MDN (no tocan el layout) */
+.mdn-nav ul,
+.site-nav {
+	list-style: none;
+}
+
+.mdn-nav a,
+.site-nav a {
+	background-color: #4d7298;
+	border: 2px solid #77a6b6;
+	border-radius: 0.5em;
+	color: white;
+	padding: 0.5em;
+	display: inline-block;
+	text-decoration: none;
+}
+
+.logo {
+	font-weight: 700;
+	color: var(--accent);
+}
+
+/* Paso 1 · Todas las franjas son flex */
+
+
+/* Pasos 2 a 6 · Un valor de justify-content por franja */
+
+
+/* Paso 7 · Menú de MDN */
+
+
+/* Reto · .site-nav */
+

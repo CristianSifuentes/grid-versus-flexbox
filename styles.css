@@ -16,6 +16,9 @@ body {
 	margin: auto;
 	padding: 40px 0;
 
+	display: flex;
+	gap: 20px;
+	
 	
 }
 
@@ -25,6 +28,9 @@ body {
 }
 
 .concerts-container {
+	width: 70%;
+	display: flex;
+	flex-wrap: wrap;
 	
 }
 
@@ -37,6 +43,8 @@ body {
 	overflow: hidden;
 	background-size: cover;
 	background-position: center center;
+
+	width: 33.33%;
 
 	
 }
@@ -53,6 +61,7 @@ body {
 	padding: 20px;
 	background-size: cover;
 	background-position: center center;
+	width: 30%;
 
 
 }

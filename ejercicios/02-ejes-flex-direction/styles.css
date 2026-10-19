@@ -1,0 +1,28 @@
+/* =========================================================
+   02 · Ejes y flex-direction
+   Escribe tu código debajo de cada paso. Guía: README.md
+   ========================================================= */
+
+/* Punto de partida: le damos altura para que haya espacio en el eje vertical */
+.axis,
+.corner {
+	min-height: 240px;
+}
+
+/* Paso 1 · flex + justify-content: center */
+
+
+/* Paso 2 · align-items: center */
+
+
+/* Paso 3 · flex-direction: column (los ejes se voltean) */
+
+
+/* Paso 4 · row-reverse en .axis--reverse */
+
+
+/* Paso 5 · .writing con flex */
+
+
+/* Reto · .corner */
+

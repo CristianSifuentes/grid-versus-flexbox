@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>01 · Contenedor e ítems flex</title>
+	<link rel="stylesheet" href="../assets/base.css">
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<header class="exercise-header">
+		<a href="../index.html">← Ejercicios</a>
+		<h1>01 · Contenedor e ítems flex</h1>
+		<p class="goal">Objetivo: entender qué hace <code>display: flex</code>, a quién afecta (solo hijos directos) y cuáles son sus valores por defecto.</p>
+	</header>
+
+	<section class="demo">
+		<h2>Demo A · .row</h2>
+		<p class="hint">Tres cajas con distinta cantidad de texto. Hoy se apilan porque son <code>display: block</code>.</p>
+		<div class="lab row" data-label=".row">
+			<div class="box">1 · Corto</div>
+			<div class="box">2 · Este tiene bastante más texto que el primero para ver cómo crece la altura.</div>
+			<div class="box box--nested">
+				3 · Tengo nietos:
+				<span class="chip">a</span>
+				<span class="chip">b</span>
+				<span class="chip">c</span>
+			</div>
+		</div>
+	</section>
+
+	<section class="demo">
+		<h2>Demo B · .row--inline</h2>
+		<p class="hint">Texto antes del contenedor. <span class="lab row--inline"><span class="box">A</span><span class="box">B</span></span> texto después.</p>
+	</section>
+
+	<section class="demo">
+		<h2>Reto · .tags</h2>
+		<p class="hint">Pon las etiquetas (los <code>li</code>) en fila. Ojo con a quién le aplicas <code>display: flex</code>.</p>
+		<div class="lab tags" data-label=".tags">
+			<h3>Etiquetas</h3>
+			<ul class="tags-list">
+				<li class="chip">css</li>
+				<li class="chip">flexbox</li>
+				<li class="chip">grid</li>
+				<li class="chip">layout</li>
+			</ul>
+		</div>
+	</section>
+</body>
+</html>

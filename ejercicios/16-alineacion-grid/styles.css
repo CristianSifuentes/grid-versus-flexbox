@@ -1,0 +1,46 @@
+/* =========================================================
+   16 · Box Alignment en grid
+   Escribe tu código debajo de cada paso. Guía: README.md
+   ========================================================= */
+
+/* Punto de partida */
+.tracks {
+	height: 260px;
+}
+
+.product img {
+	width: 100%;
+	aspect-ratio: 4 / 3;
+	object-fit: cover;
+	border-radius: var(--radius);
+}
+
+.tag {
+	background: var(--accent);
+	color: #111;
+	font-weight: 700;
+	padding: 4px 10px;
+	border-radius: 100px;
+	margin: 8px;
+}
+
+/* Paso 1 · La rejilla de celdas */
+
+
+/* Paso 2 · justify-items (eje en línea, horizontal) */
+
+
+/* Paso 3 · align-items (eje de bloque, vertical) */
+
+
+/* Paso 4 · place-items y justify-self / align-self */
+
+
+/* Paso 5 · Ejemplo de MDN */
+
+
+/* Paso 6 · justify-content y align-content: mover pistas */
+
+
+/* Reto · .products */
+

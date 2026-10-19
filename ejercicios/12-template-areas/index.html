@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>12 · grid-template-areas</title>
+	<link rel="stylesheet" href="../assets/base.css">
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<header class="exercise-header">
+		<a href="../index.html">← Ejercicios</a>
+		<h1>12 · grid-template-areas: layout de página</h1>
+		<p class="goal">Objetivo: dibujar el layout de una página completa con nombres de áreas, el ejemplo 2 del tutorial de StudyCode.</p>
+	</header>
+
+	<section class="demo">
+		<h2>.page</h2>
+		<div class="lab page" data-label=".page">
+			<header class="box page-header">Header</header>
+			<nav class="box page-nav">Nav</nav>
+			<main class="box page-main">Main content</main>
+			<aside class="box page-aside">Sidebar</aside>
+			<footer class="box page-footer">Footer</footer>
+		</div>
+	</section>
+
+	<section class="demo">
+		<h2>Reto · .grail</h2>
+		<p class="hint">La navegación ocupa <strong>toda la altura</strong> a la izquierda; header y footer solo cubren el resto.</p>
+<pre class="plan">
+┌──────┬──────────────────────┐
+│      │        header        │
+│      ├──────────────┬───────┤
+│ nav  │     main     │ aside │
+│      ├──────────────┴───────┤
+│      │        footer        │
+└──────┴──────────────────────┘
+</pre>
+		<div class="lab grail" data-label=".grail">
+			<header class="box g-header">Header</header>
+			<nav class="box g-nav">Nav</nav>
+			<main class="box g-main">Main</main>
+			<aside class="box g-aside">Aside</aside>
+			<footer class="box g-footer">Footer</footer>
+		</div>
+	</section>
+</body>
+</html>

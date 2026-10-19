@@ -1,0 +1,35 @@
+/* =========================================================
+   12 · grid-template-areas
+   Escribe tu código debajo de cada paso. Guía: README.md
+   ========================================================= */
+
+/* Punto de partida */
+.page,
+.grail {
+	min-height: 480px;
+}
+
+.plan {
+	font: 0.9rem / 1.2 ui-monospace, monospace;
+	color: var(--muted);
+	margin-bottom: 12px;
+	overflow-x: auto;
+}
+
+/* Paso 1 · Columnas y filas */
+
+
+/* Paso 2 · Dibuja el mapa */
+
+
+/* Paso 3 · Asigna cada elemento a su área */
+
+
+/* Paso 4 · Celdas vacías con "." */
+
+
+/* Paso 5 · Rompe la regla del rectángulo (y vuelve atrás) */
+
+
+/* Reto · .grail */
+

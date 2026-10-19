@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>14 · Galería con auto-fill y auto-fit</title>
+	<link rel="stylesheet" href="../assets/base.css">
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<header class="exercise-header">
+		<a href="../index.html">← Ejercicios</a>
+		<h1>14 · Galería: auto-fill, auto-fit y minmax()</h1>
+		<p class="goal">Objetivo: crear una galería que decide sola cuántas columnas caben, <strong>sin media queries</strong>, y entender la diferencia entre <code>auto-fill</code> y <code>auto-fit</code>.</p>
+	</header>
+
+	<section class="demo">
+		<h2>Pocos ítems · .few-fill y .few-fit</h2>
+		<p class="hint">Solo dos ítems. Pon la ventana ancha (más de 900px).</p>
+		<div class="lab few-fill" data-label=".few-fill"><div class="box">1</div><div class="box">2</div></div>
+		<div class="lab few-fit" data-label=".few-fit"><div class="box">1</div><div class="box">2</div></div>
+	</section>
+
+	<section class="demo">
+		<h2>.gallery</h2>
+		<div class="lab gallery" data-label=".gallery">
+			<figure><img src="../../img/1.jpg" alt="Concierto 1"><figcaption>Rock In Rio</figcaption></figure>
+			<figure><img src="../../img/2.jpg" alt="Concierto 2"><figcaption>FalconMasters</figcaption></figure>
+			<figure><img src="../../img/3.jpg" alt="Concierto 3"><figcaption>Coachella</figcaption></figure>
+			<figure><img src="../../img/4.jpg" alt="Concierto 4"><figcaption>US Festival</figcaption></figure>
+			<figure><img src="../../img/5.jpg" alt="Concierto 5"><figcaption>Altamont</figcaption></figure>
+			<figure><img src="../../img/6.jpg" alt="Concierto 6"><figcaption>Rock In Rio Again</figcaption></figure>
+		</div>
+	</section>
+
+	<section class="demo">
+		<h2>Contenedor angosto · .tiny</h2>
+		<p class="hint">Contenedor de 160px: más angosto que el mínimo de 200px.</p>
+		<div class="lab tiny" data-label=".tiny"><div class="box">1</div><div class="box">2</div></div>
+	</section>
+</body>
+</html>

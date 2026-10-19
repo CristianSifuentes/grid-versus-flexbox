@@ -1,0 +1,43 @@
+/* =========================================================
+   15 · Tamaños de pista y hero
+   Escribe tu código debajo de cada paso. Guía: README.md
+   ========================================================= */
+
+/* Punto de partida */
+.hero {
+	padding: 1.5rem;
+}
+
+.hero-text h2 {
+	font-size: 2rem;
+	margin-bottom: 0.5rem;
+}
+
+.hero-text p {
+	margin-bottom: 1rem;
+}
+
+.hero-img {
+	width: 100%;
+	aspect-ratio: 4 / 3;
+	object-fit: cover;
+	border-radius: var(--radius);
+}
+
+/* Paso 1 · Hero de dos columnas (como en el artículo) */
+
+
+/* Paso 2 · Observa el problema (no escribas nada, lee el README) */
+
+
+/* Paso 3 · minmax(0, 1fr) */
+
+
+/* Paso 4 · Laboratorio de tamaños intrínsecos */
+
+
+/* Paso 5 · Hero responsive sin media query */
+
+
+/* Reto · Imagen a la izquierda sin tocar el HTML */
+

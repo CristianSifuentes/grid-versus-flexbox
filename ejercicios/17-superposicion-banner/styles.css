@@ -1,0 +1,60 @@
+/* =========================================================
+   17 · Superposición con grid
+   Escribe tu código debajo de cada paso. Guía: README.md
+   ========================================================= */
+
+/* Punto de partida: solo apariencia */
+.banner {
+	border-radius: var(--radius);
+	overflow: hidden;
+}
+
+.banner-text {
+	padding: 2rem;
+	background: linear-gradient(to top, rgba(0, 0, 0, 0.85), transparent);
+}
+
+.banner-text h2 {
+	font-size: 2rem;
+}
+
+.banner-text p {
+	margin: 0.5rem 0 1rem;
+}
+
+.banner-badge {
+	background: var(--accent);
+	color: #111;
+	font-weight: 700;
+	padding: 6px 14px;
+	border-radius: 100px;
+	margin: 1rem;
+}
+
+.concert {
+	border-radius: var(--radius);
+	overflow: hidden;
+}
+
+.concert-info {
+	padding: 1rem;
+	background: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent);
+}
+
+/* Paso 1 · Todos los hijos en la misma celda */
+
+
+/* Paso 2 · La imagen como fondo que llena la celda */
+
+
+/* Paso 3 · Colocar el texto y la insignia con -self */
+
+
+/* Paso 4 · z-index sin position */
+
+
+/* Paso 5 · Variante con área con nombre */
+
+
+/* Reto · .concerts */
+

@@ -1,0 +1,41 @@
+/* =========================================================
+   14 · Galería: auto-fill, auto-fit y minmax()
+   Escribe tu código debajo de cada paso. Guía: README.md
+   ========================================================= */
+
+/* Punto de partida */
+.gallery figure {
+	background: var(--surface-2);
+	border-radius: var(--radius);
+	overflow: hidden;
+}
+
+.gallery figcaption {
+	padding: 0.5rem 0.75rem;
+	font-weight: 700;
+}
+
+.tiny {
+	width: 160px;
+}
+
+/* Paso 1 · auto-fill con pistas fijas */
+
+
+/* Paso 2 · auto-fill + minmax */
+
+
+/* Paso 3 · auto-fit + minmax */
+
+
+/* Paso 4 · La galería */
+
+
+/* Paso 5 · Imágenes uniformes */
+
+
+/* Paso 6 · min() para contenedores angostos */
+
+
+/* Reto · Destacar la primera foto */
+
